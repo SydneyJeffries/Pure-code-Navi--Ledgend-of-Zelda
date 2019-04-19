@@ -1,0 +1,153 @@
+$-OutsideBlueNavi: #1ca7e8
+$-MidBlue: #7eecfd
+$-LigtInsideBlue: #c7fbfe
+
+
+body 
+  margin-top: 2%
+  margin-left: 30%
+  background-color: #111111
+  padding-top: 140px
+  @media screen and (max-width: 700px)
+    margin-left: 10%
+  font-size: 1.3em
+  word-break: keep-all
+  color: #555555
+  font-weight: bold 
+  
+#contentBox
+  width: 50%
+  height: 50%
+  z-index: 1
+  margin-bottom: 5%
+  margin-left: 6%
+  @media screen and (max-width: 700px)
+    margin-left: 7%
+   
+  
+.button 
+  width: 50px
+  height: 50px
+  border-radius: 50%
+  background-color: $-OutsideBlueNavi
+  position: absolute
+  top: 70%
+  left: 70%
+  box-shadow: inset 5px 5px 5px grey
+  color: #555555
+  animation: blinkButton .7s infinite linear
+ 
+ .buttonOff
+     display: none
+  
+  @keyframes blinkButton
+    0%
+      box-shadow: inset 5px 5px 5px #555555 
+    100%
+      box-shadow: -10px 5px 5px transparent 
+  
+.ferry-container 
+  width: 500px
+  height: 400px
+  position: absolute
+  opacity: .5
+  top: 50%
+  transform: translatey(0px)
+  
+  animation: floating 1.2s linear infinite
+  
+@keyframes floating  
+  0%
+  transform: translatey(0px)  
+  50% 
+  transform: translatey(30px)   
+  100% 
+  transform: translatey(0px)
+  
+ 
+svg 
+  position: absolute
+  left: -20%
+  top: -165%
+  z-index: 1
+  opacity: .7
+  width: 2000px
+  height: 2000px
+  
+ 
+.ferry_body
+    width: 170px
+    height: 150px
+    background-color: $-OutsideBlueNavi
+    opacity: .8 inherit
+    border-radius: 50%
+    box-shadow: 10px 12px 210px 1px $-OutsideBlueNavi 
+    filter: blur(20px)
+    z-index: 2
+    
+.ferry_body-outtercore
+  width: 100px
+  height: 90px
+  background-color: $-LigtInsideBlue
+  margin-right: auto
+  margin-left: auto
+  
+  position: relative
+  top: 20%
+
+.ferry_body-innercore
+  background-color: $-LigtInsideBlue
+  width: 70px
+  height: 80px
+  
+.smallsparkle-3
+  position: relative 
+  top: 2%
+  
+.sparkle
+  width: 30px
+  height: 30px
+  background-color: $-OutsideBlueNavi
+  border-radius: 50%
+  opacity: .5
+  filter: blur(5px)
+  margin-top: 6%
+  position: relative
+  box-shadow: 2px 2px 3px 5px $-OutsideBlueNavi 
+  
+.sparkleouttercore 
+  width: 20px
+  height: 20px
+  margin-right: auto
+  margin-left: auto
+  background-color: $-MidBlue
+  position: relative
+  top: 20%
+  
+  
+  
+.sparkleinnercore
+  width: 10px
+  height: 10px
+  background-color: $-LigtInsideBlue
+
+.sparkle-2
+  position: relative
+  left: 17%
+ 
+.smallsparkle
+  width: 15px
+  height: 15px
+  border-radius: 50%
+  background-color: $-OutsideBlueNavi
+  opacity: .3
+  filter: blur(5px)
+  box-shadow: 2px 2px 3px 5px $-OutsideBlueNavi 
+  position: relative
+  left: 7%
+
+  
+.smallsparkle-2
+  position: relative
+
+  left: 25%
