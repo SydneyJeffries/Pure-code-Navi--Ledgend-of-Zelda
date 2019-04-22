@@ -1,3 +1,4 @@
+
 body {
 
   margin-left: 15%;
@@ -30,7 +31,9 @@ body {
   }
 }
 
-.button {
+.button, #theButton, #theButton2 {
+  z-index: 1000;
+  visibility: hidden;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -44,15 +47,6 @@ body {
   -webkit-animation: blinkButton .7s infinite linear;
           animation: blinkButton .7s infinite linear;
 }
-
-#theButton {
-  /* visibility: hidden; */
-  opacity: 0;
-}
-
-
-
-
 
 @-webkit-keyframes blinkButton {
   0% {
@@ -86,9 +80,29 @@ body {
           transform: translatey(0px);
   -webkit-animation: floating 1.2s linear infinite;
           animation: floating 1.2s linear infinite;
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: 100;
 }
 
 @-webkit-keyframes floating {
+  0%   {left:200px; top:215px;}
+  25%  {left:240px; top:320px;}
+  50%  {left:220px; top:270px;}
+  75%  {left:150px; top:350px;}
+  100% {left:200px; top:215px;}
+}
+
+/* Standard syntax */
+@keyframes floating {
+  0%   {left:200px; top:215px;}
+  25%  {left:240px; top:320px;}
+  50%  {left:220px; top:270px;}
+  75%  {left:150px; top:350px;}
+  100% {left:200px; top:215px;}
+}
+
+/* @-webkit-keyframes floating {
   0% {
   }
   -webkit-transform: translatey(0px);
@@ -114,7 +128,7 @@ body {
   100% {
   }
   transform: translatey(0px);
-}
+} */
 
 svg {
   position: absolute;
@@ -214,4 +228,5 @@ svg {
   left: 25%;
 }
 /*# sourceMappingURL=style.css.map */
+
 
