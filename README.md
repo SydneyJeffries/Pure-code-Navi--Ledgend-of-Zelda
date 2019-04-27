@@ -1,7 +1,7 @@
 # Pure-code-Navi--Ledgend-of-Zelda
 Interactive Navi - You can talk to Navi in an interface that's similar in style as talking to videogame characters from the  N64.
 <p>
- <a href="http://tinypic.com?ref=4jlsuu" target="_blank"><img src="http://i68.tinypic.com/4jlsuu.jpg" border="0" style="text-align: center;" alt="Image and video hosting by TinyPic"></a>
+
  <a href="http://tinypic.com?ref=2isa7pg" target="_blank"><img src="http://i67.tinypic.com/2isa7pg.png" border="0" alt="Image and video hosting by TinyPic"></a>
 <p>
 
