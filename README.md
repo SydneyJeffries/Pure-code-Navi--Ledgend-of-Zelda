@@ -2,7 +2,7 @@
 Interactive Navi - You can talk to Navi in an interface that's similar in style as talking to videogame characters from the  N64.
 <p>
 
- <a href="http://tinypic.com?ref=2isa7pg" target="_blank"><img src="http://i67.tinypic.com/2isa7pg.png" border="0" alt="Image and video hosting by TinyPic"></a>
+ <img src="https://lh3.googleusercontent.com/QBbS1gViB9QMqKP00mikyaqD1oDmieDCpJtUsB-Gur1zoFlthXRc8OI2QRLw67qFAj-VRbI7n5bXc0VCrFm6BxqUhr91JlFo2FuQ0sHnTq6pLYqwLs2llEZP0pPmFqH7FycvyYOygLWcPxmnB6SBbBNakIUiFfC6kzcQSXNQGhttFE1g1AiSjFPYXW5Ox923xdXEeBXgjfNKsks16YN5eX8DI96jxnDcHJmoWYlmpvgyqiNFjk9p8U1p-iWalWEzeh_Cb2mHjmCpMEwtb55A3GD4rDRZFmTF8inlR4bZYRJ5ZVDWBczwCoRu5LYUFHjs_Ib87mstur-TM0gG8IppQ0ORgCeGzg1u6INUerLmDF3NX5HAIfz8dX325gqf_ZeNkkPaMBR7jf9BvKbbpCxDf0GhogNxVMc25Dz1ocLsnqdnzyFQh2yPkHI8NPPV-vYIkmplSaR1etEwFxJVf-JeM0sn1LxdMy2u41OdtR_MlH6L_reJ2M1LLqB96FXk_1E2CHgwexqIGIwQF1MNq2VC2fU3KRce5mEAi4nJXKRAKZA_kG6UT67cpgvKhbdqVk2btNqfPg9C_bmmGBzjEJQkLTmTiGH6yzvFePm0G3LRb9XN7mjBLTizhOTij4PcU5_xOOpgROc8HcxEtCFP_kO_xR5lbWmexrS02FbQ0IgjL8v1nDDgUcMSUbcJqGy1=w1037-h552-no?authuser=0" border="0" alt="Image and video hosting by TinyPic">
 <p>
 <h4> The Navi </h4>
  <p> The Navi is made with pure HTML and CSS. The CSS properties that brought her to life were the border radiuses, box shadows and opacities. All of her is HTML/CSS except for her wings which are an SVG. To apperciate the work quality, closely watch the animation play out as soon as the page loads. https://codepen.io/sydney-jeffries/pen/omaLdL 
